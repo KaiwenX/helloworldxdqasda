@@ -1,0 +1,40 @@
+char = game:GetService('Players').LocalPlayer.Character
+		-------------------------------------
+		function GetKnife()
+			wait(.1)
+			char.HumanoidRootPart.CFrame = CFrame.new(-680.2, 19.75, -254.97)
+			char.HumanoidRootPart.CFrame = CFrame.new(-680.2, 19.75, -254.97)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-115.495, 19.756, -453.45)
+			char.HumanoidRootPart.CFrame = CFrame.new(-115.495, 19.756, -453.45)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+			char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+			char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(33, 19.75, -184.6)
+			char.HumanoidRootPart.CFrame = CFrame.new(33, 19.75, -184.6)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(243.495, 62, -450.5)
+			char.HumanoidRootPart.CFrame = CFrame.new(243.495, 62, -450.5)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-103.53, 19.75, -220.21)
+			char.HumanoidRootPart.CFrame = CFrame.new(-103.53, 19.75, -220.21)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-581.775, 19.7549, -485.23)
+			char.HumanoidRootPart.CFrame = CFrame.new(-581.775, 19.7549, -485.23)
+			wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-399.655, 19.7552, -461.55)
+			char.HumanoidRootPart.CFrame = CFrame.new(-399.655, 19.7552, -461.55)
+			wait()
+		end
+ 
+		wait()
+		local X = char.HumanoidRootPart.CFrame.X
+		local Y = char.HumanoidRootPart.CFrame.Y
+		local Z = char.HumanoidRootPart.CFrame.Z
+		GetKnife()
+		repeat GetKnife() until plr.Backpack:FindFirstChild('[Knife]') and plr.Backpack:FindFirstChild('[LockPicker]')
+		char.HumanoidRootPart.CFrame = CFrame.new(X,Y+5,Z)
